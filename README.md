@@ -12,33 +12,27 @@ Installation
 
     Clone this repository to your local machine:
 
-    bash
-
-git clone <repository-url>
+git clone https://github.com/AbdoTarek2211/Simple-Login-Register.git
 
 Navigate to the project directory:
 
-bash
-
+```
 cd express-login-registration-postgresql
-
+```
 Install dependencies:
 
-bash
-
+```
 npm install
-
+```
 Set up the PostgreSQL database:
 
     Create a PostgreSQL database.
     Update ./dbConfig.js with your PostgreSQL database configuration.
 
 Run the application:
-
-bash
-
-    npm start
-
+```
+npm start
+```
 Usage
 
 Once the application is running, you can access it through a web browser at http://localhost:4000.
